@@ -64,9 +64,7 @@ export default function Hero() {
               height={560}
               className="relative aspect-[4/5] w-full rounded-2xl border border-border object-cover"
             />
-            <p className="relative mt-3 text-center font-mono text-xs text-faint">
-              src/assets/profile.jpg
-            </p>
+            
           </div>
         </Reveal>
       </div>
