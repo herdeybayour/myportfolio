@@ -3,6 +3,8 @@ import digitcareAbout from "../assets/projects/digitcare-about.png";
 import digitcareServices from "../assets/projects/digitcare-services.png";
 import digitcareLogin from "../assets/projects/digitcare-login.png";
 
+import maisonTempoImg from "../assets/projects/image.png";
+
 // Add future projects to this array.
 // ProjectCard will display the images as a carousel.
 export const projects = [
@@ -14,7 +16,6 @@ export const projects = [
     description:
       "A hospital management web application with role-based workflows for admins, doctors, nurses, receptionists, pharmacists and laboratory staff — covering patient records, appointments, prescriptions and lab results.",
 
-    // Carousel images
     images: [
       digitcareHome,
       digitcareAbout,
@@ -46,4 +47,35 @@ export const projects = [
 
     featured: true,
   },
+
+{
+  id: "maison-tempo",
+  name: "Maison Tempo",
+  description:
+    "A full-stack e-commerce platform for a watch brand, built with a modern React frontend and ASP.NET Core backend. The application includes product and category management, admin authentication, and API-driven product data.",
+  images: [
+    maisonTempoImg,
+  ],
+  technologies: [
+    "React",
+    "Vite",
+    "Tailwind CSS",
+    "ASP.NET Core Web API",
+    "Entity Framework Core",
+    "MySQL",
+    "JWT Authentication",
+  ],
+  features: [
+    "Watch product browsing and product details",
+    "Product and category management",
+    "Admin authentication with JWT",
+    "REST API integration",
+    "Shopping cart functionality",
+    "Responsive e-commerce interface",
+    "MySQL database",
+  ],
+  liveUrl: "https://watch-store-six-mocha.vercel.app/",
+  githubUrl: null,
+  featured: true,
+},
 ];
